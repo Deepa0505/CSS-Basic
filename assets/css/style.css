@@ -1,0 +1,222 @@
+.cssColor1{
+    background-color: teal;
+}
+.cssColor2{
+    background-color: #87ceeb;
+}
+.cssColor3{
+    background-color: rgb(128, 128, 128);
+}
+.commonCssColors{
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+/* P7.HTML */
+.jumbotron{
+    background-color: #8e44ad;
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.cssText>p{
+    text-indent: 100px;
+}
+/* P8.HTML */
+.navBar{
+    background-color: gray;
+}
+.navBar>ul{
+    list-style: 0;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li:hover{
+    background-color: #fff;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover a{
+    color: #808080;
+}
+.navBar>img{
+    height: 54px;
+}
+
+/* LIST MARKER POSITION */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-marker-position>ol>li::marker{
+    color: #e4f12e;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* USING IMAGE AS BULLET POINT */
+.list-icon>ul>li{
+    list-style-image: url(../images/icon.png);
+}
+/* LIST SHORTHAND PROPERTY */
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+    /* list-style-type: decimal;
+    list-style-position: inside;
+    list-style-image: url(../images/icon.png); */
+    list-style: decimal inside url(../images/icon.png);
+}
+
+/* P9.HTML */
+.empty-cell-table{
+    empty-cells: hide;
+}
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    color: white;
+}
+
+/* .odd-even-table{
+    background-color: purple;
+} */
+.odd-even-table tr:nth-child(odd){
+    background-color: gray;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: lightgray;
+}
+.odd-even-table tr:hover(odd){
+    background-color: rosybrown;
+}
+.odd-even-table th{
+    background-color: skyblue;
+}
+.odd-even-table>caption{
+    color: gray;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.odd-even-table td{
+    height: 200px;
+    vertical-align: center;
+}
+.layout-table, .layout-table th, .layout-table td{
+    border: 2px solid gray;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.layout-table{
+    width: 10%;
+    table-layout: fixed;
+}
+.layout-table td, .layout-table th{
+    overflow: scroll;
+}
+/* p10. html */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: gray;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul>li>{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover{
+    background-color: white;
+}
+header>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+/* P10 HTML and P12.HTML */
+.banner1{
+    background-color: bisque;
+}
+.bannerCommonClass{
+    color: gray;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+}
+.bannerCommonClass>h1{
+    font-size: 50px;
+}
+.bannerCommonClass>h1:hover{
+    color: aliceblue;
+}
+.banner2{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

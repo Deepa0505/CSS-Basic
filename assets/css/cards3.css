@@ -1,0 +1,43 @@
+.head{
+    margin: 0%;
+    min-height: 0%;
+    display: flex;  
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hill{
+    width: 350px;
+    align-items: cover;
+    height: 450px;
+    background-color: #a09d9d;
+    border-radius: 60px;
+    text-align: center;
+    color: #0f0f0f;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+.hill>div>p{
+    padding: 20px;
+}
+
+.hill>h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.hill>p{
+    text-align: center;
+}
+
+.mediaicons>a{
+    padding: 23px;
+}
+
+.mediaicons>a>:hover{
+    background-color: gray;
+}
